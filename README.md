@@ -25,7 +25,7 @@ This project provides a simple tool for encrypting and decrypting images using a
    git clone https://github.com/FollyBoris/PRODIGY_INTERSHIP_TASK2.git
    cd PRODIGY_INTERSHIP_TASK2
    ```
-**##Install the required libraries:**
+## Install the required libraries:
 
 ```bash
 pip install numpy pillow
@@ -34,7 +34,7 @@ pip install numpy pillow
 **##Usage **
 The tool can be used directly from the command line or interactively through user prompts.
 
-**###Command Line Usage**
+### Command Line Usage
 Encrypt an image:
 
 ```bash
@@ -42,13 +42,13 @@ Encrypt an image:
 python main.py --mode encrypt --path path_to_image.jpg --name encrypted_image --key 123
 
 ```
-**###Decrypt an image:**
+### Decrypt an image:
 ```bash
 
 python main.py --mode decrypt --path path_to_encrypted_image.jpg --name decrypted_image --key 123
 ```
 
-**###Interactive Usage**
+### Interactive Usage
 Run the script without arguments to use the interactive mode:
 
 ```
